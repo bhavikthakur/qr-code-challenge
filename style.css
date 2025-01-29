@@ -1,0 +1,142 @@
+/* ----------------CSS RESET-------------------- */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+
+
+
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/* -----------------COLORS-------------------- */
+
+:root {
+    --clr-neutral: hsl(0, 0%, 100%);
+    --clr-slate-300: hsl(212, 45%, 89%);
+    --clr-slate-500: hsl(216, 15%, 48%);
+    --clr-slate-900: hsl(218, 44%, 22%);
+
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    color: var(--clr-slate-500);
+    background-color: var(--clr-slate-300);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* -----------------TYPOGRAPHY------------------------ */
+
+.qr-title {
+    font-size: 1.1rem;
+    color: var(--clr-slate-900)
+}
+
+.qr-body {
+    font-size: 0.8rem;
+    padding-bottom: 1.5em;
+    color: var(--clr-slate-500);
+    line-height: 1.4;
+}
+
+/* -------------------IMAGE--------------------------------- */
+.qr-img {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 0.8em;
+
+}
+
+.qr-img:hover,
+.qr-img:focus {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* ------------------LAYOUT--------------------------------- */
+
+
+
+
+.qr-container {
+
+    background-color: var(--clr-neutral);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    max-width: 250px;
+    width: 90%;
+    padding: 1.3em;
+    border-radius: 1.2em;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.qr-title,
+.qr-body {
+    text-align: center;
+}
