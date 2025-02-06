@@ -1,51 +1,51 @@
-✈ QR Code Component <br>
+# ✈ QR Code Component
 Frontend Mentor Challenge - A simple QR code component built using HTML & CSS.
- 
-📌 Live Demo <br>
-🔗 View Project on GitHub Pages: https://bhavikthakur.github.io/qr-code-challenge/
 
-🛠 Tech Stack <br>
-HTML5 <br>
-CSS3 (Flexbox) <br>
-Google Fonts (Outfit) <br>
+## 📌 Live Demo
+🔗 View Project on GitHub Pages: [QR Code Challenge](https://bhavikthakur.github.io/qr-code-challenge/)
 
-🎯 Overview <br>
+## 🛠 Tech Stack
+- HTML5
+- CSS3 (Flexbox)
+- Google Fonts (Outfit)
+
+## 🎯 Overview
 This project is a beginner-friendly challenge from Frontend Mentor. It involves creating a visually appealing QR code component that looks like a real-world card design. The main goal was to practice responsive layouts, typography, and box-shadow effects.
 
-✨ Features
+## ✨ Features
+- ✔️ Fully responsive design
+- ✔️ Clean & modern UI
+- ✔️ Subtle hover effect on QR code
+- ✔️ Centered layout with smooth spacing
 
+## 📸 Screenshots
 
-✔️ Fully responsive design <br>
-✔️ Clean & modern UI <br>
-✔️ Subtle hover effect on QR code <br>
-✔️ Centered layout with smooth spacing <br>
-
-📸 Screenshots 
-
- Desktop view 
 ![Desktop View](./design/desktop.png)
-Mobile view
 ![Mobile View](./design/mobile.png)
 
-📂 Folder Structure
+## 📂 Folder Structure
 
 
-/qr-code-component <br>
-│── index.html <br>
-│── style.css <br>
-│── images/ <br>
-│   ├── image-qr-code.png <br>
-│   ├── favicon-32x32.png <br>
+/qr-code-component  
+│── index.html  
+│── style.css  
+│── images/  
+│   ├── image-qr-code.png  
+│   ├── favicon-32x32.png  
 
 
-🧠 What I Learned
-- How to use CSS Flexbox for centering content. <br>
-- Implementing a card layout with box-shadow and border-radius. <br>
-- Improving text readability using text-wrap: balance; <br>
-- Using max-width: 100% for responsive images. <br>
 
-🚀 How to Use
+## 🧠 What I Learned
+- How to use CSS Flexbox for centering content.
+- Implementing a card layout with box-shadow and border-radius.
+- Improving text readability using `text-wrap: balance;`.
+- Using `max-width: 100%` for responsive images.
 
-1. Clone the repo: <br>
-git clone https://github.com/yourusername/qr-code-component.git
+## 🚀 How to Use
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/bhavikthakur/qr-code-challenge.git
 
+
+## 🎨 Design Inspiration
+ This design is part of a Frontend Mentor challenge. You can try it yourself at Frontend Mentor.
