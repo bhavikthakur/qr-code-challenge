@@ -48,4 +48,4 @@ This project is a beginner-friendly challenge from Frontend Mentor. It involves 
 
 
 ## 🎨 Design Inspiration
- This design is part of a Frontend Mentor challenge. You can try it yourself at Frontend Mentor.
+ This design is part of a Frontend Mentor challenge. You can try it yourself at https://www.frontendmentor.io/
