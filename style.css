@@ -75,8 +75,7 @@ h6 {
 }
 
 body {
-    font-size: 62.5%;
-    font-family: "Outfit", serif;
+    font-family: "Outfit", sans-serif;
     font-weight: 400;
     color: var(--clr-slate-500);
     background-color: var(--clr-slate-300);
@@ -90,12 +89,12 @@ body {
 
 /* -----------------TYPOGRAPHY------------------------ */
 
-.qr-title {
+.qr-card__title {
     font-size: 1.1rem;
     color: var(--clr-slate-900)
 }
 
-.qr-body {
+.qr-card__description {
     font-size: 0.8rem;
     padding-bottom: 1.5em;
     color: var(--clr-slate-500);
@@ -103,15 +102,15 @@ body {
 }
 
 /* -------------------IMAGE--------------------------------- */
-.qr-img {
+.qr-card__img {
     max-width: 250px;
     width: 100%;
     border-radius: 0.8em;
 
 }
 
-.qr-img:hover,
-.qr-img:focus {
+.qr-card__img:hover,
+.qr-card__img:focus {
     opacity: 0.7;
     cursor: pointer;
 }
@@ -121,7 +120,7 @@ body {
 
 
 
-.qr-container {
+.qr-card {
 
     background-color: var(--clr-neutral);
     display: flex;
@@ -136,7 +135,7 @@ body {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
 }
 
-.qr-title,
-.qr-body {
+.qr-card__title,
+.qr-card__description {
     text-align: center;
 }
