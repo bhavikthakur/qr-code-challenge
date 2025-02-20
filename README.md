@@ -18,10 +18,6 @@ This project is a beginner-friendly challenge from Frontend Mentor. It involves 
 - ✔️ Subtle hover effect on QR code
 - ✔️ Centered layout with smooth spacing
 
-## 📸 Screenshots
-
-![Desktop View](./design/desktop.png)
-![Mobile View](./design/mobile.png)
 
 ## 📂 Folder Structure
 │── index.html <br>
